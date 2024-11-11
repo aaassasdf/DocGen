@@ -1,0 +1,5 @@
+# Ignore auto genearted files
+TnC forms
+
+# Ignore actual template files
+TnC template.docx
