@@ -3,3 +3,6 @@ TnC forms
 
 # Ignore actual template files
 TnC template.docx
+
+Ignore virtual environment files
+.venv
