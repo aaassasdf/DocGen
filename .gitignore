@@ -39,6 +39,9 @@ _ReSharper*/
 # Ignore auto genearted files
 TnC forms
 
+# Ignore .venv directory due to large size
+/.venv
+
 # Ignore actual template files
 TnC template.docx
 points.csv
