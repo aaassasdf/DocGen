@@ -37,10 +37,11 @@ def create_doc_context(base_dir: Path):
             frameworks.append(framework)
             framework = []
 
-    # Add padding to the last framework if it's less than 10
-    padding_needed = 10 - len(framework)
-    if padding_needed > 0:
-        framework.extend([{'item': '', 'desc': '', 'result': ''} for _ in range(padding_needed)])
+    # Add padding to the last framework if it's less than 10 and not empty
+    if framework:
+        padding_needed = 10 - len(framework)
+        if padding_needed > 0:
+            framework.extend([{'item': '', 'desc': '', 'result': ''} for _ in range(padding_needed)])
         frameworks.append(framework)
 
     return frameworks, info
