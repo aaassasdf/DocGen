@@ -1,8 +1,50 @@
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studion files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.pyc
+*.xml
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+# Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
 # Ignore auto genearted files
 TnC forms
 
 # Ignore actual template files
 TnC template.docx
+points.csv
 
 Ignore virtual environment files
 .venv
+
+# Microsoft Office temporary files
+~$*
